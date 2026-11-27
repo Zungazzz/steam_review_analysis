@@ -1,10 +1,10 @@
-x# Steam Review Explorer: what players praise and complain about
+# Steam Review Explorer: what players praise and complain about
 
 Text and sentiment analysis of about 300,000 English Steam reviews for five games, plus an interactive dashboard.
 
 **Games:** No Man's Sky, Cyberpunk 2077, Helldivers 2, Battlefield 2042, Stardew Valley
 **Tools:** Python (pandas, scikit-learn, VADER, BERTopic), Streamlit, Plotly
-**Live dashboard:** `Not Deployed yet`
+**Live dashboard:** `https://steamreviewanalysis-nu6vglnejbcawd4ypco4rq.streamlit.app/`
 
 ## Questions
 
