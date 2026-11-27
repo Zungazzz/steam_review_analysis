@@ -1,4 +1,3 @@
-
 # ==============================
 # Python
 # ==============================
@@ -33,6 +32,10 @@ data/external/
 # CSV datasets
 *.csv
 
+# Small CSVs that MUST be committed (the dashboard and the analysis need them)
+!data/events.csv
+!dashboard/data/*.csv
+
 # Other data formats
 *.parquet
 *.xlsx
@@ -51,6 +54,7 @@ data/external/
 .env
 .env.*
 !.env.example
+.streamlit/secrets.toml
 
 # ==============================
 # Logs

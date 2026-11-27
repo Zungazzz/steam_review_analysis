@@ -1,0 +1,21 @@
+# Core: scraper, cleaning, EDA, sentiment (notebooks 01, 02, 04)
+requests
+pandas
+numpy
+matplotlib
+seaborn
+scikit-learn
+vaderSentiment
+jupyter
+
+# Dashboard (dashboard/app.py)
+streamlit
+plotly
+
+# Topic modelling (notebook 03, BERTopic) - large download, installs torch
+bertopic
+sentence-transformers
+
+# Optional: transformer sentiment step in notebook 02 (USE_TRANSFORMER = True)
+# transformers
+# torch
